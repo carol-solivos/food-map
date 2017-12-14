@@ -42,7 +42,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12-xs text-center">
-					<input type="text" placeholder="alimentame">
+					<h1>Comida cerca de ti</h1>
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							Elige a dónde quieres ir...
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li id="cafe">Café</li>
+							<li id="rapida">Comida rápida</li>
+							<li id="restaurante">Restaurante</li>			
+							<li id="todos">Todos</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -51,32 +63,27 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-				</div>
+				<div class="col-xs-12" id="images"></div>
 			</div>
 		</div>
 	</section>
 	<!-- FOOTER -->
 	<footer>
-
+		<div class="container">
+			<div class="row">
+				<div class="col-xs text-center">
+					<p>Todos los derechos reservados</p>
+				</div>
+			</div>
+		</div>		
 	</footer>
 
 	<!-- jquery -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- luego carga el css -->
+	<!-- data -->
+	<script src="assets/js/data.js"></script>
 	<!-- js propio -->
 	<script src="assets/js/app.js"></script>
 	<!-- script google maps -->

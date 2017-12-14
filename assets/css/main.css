@@ -8,6 +8,10 @@ h1 {
 	font-weight: 300;
 }
 
+header h1 {
+	font-size: 50px;
+}
+
 .splash {
 	position: fixed;
 	background-color: black;
@@ -48,4 +52,35 @@ h1 {
 #map {
   height: 180px;
   width: 100%;
+}
+
+.btn {
+	width: 90%;
+	max-width: 500px;
+	border-radius: 0px;
+}
+
+.dropdown-menu {
+	width: 80%;
+	max-width: 400px;
+	margin-left: 20px;
+	border-radius: 0px;
+}
+
+.dropdown-menu li{
+	cursor: pointer;
+}
+
+#images img {
+	height: 130px;
+	object-fit: cover;
+	width: 30%;
+	margin: 5px;
+}
+
+#images {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
